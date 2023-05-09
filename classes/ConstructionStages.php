@@ -36,7 +36,7 @@ class ConstructionStages
 		return $stmt->fetchAll(PDO::FETCH_ASSOC);
 	}
 	/**
-	 * @param string $id  it's construction stages data id
+	 * @param string $id  it's construction stages data id to get
 	 * @return array 
 	 *
 	 */
